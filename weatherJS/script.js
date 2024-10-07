@@ -6,7 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: 'Geneva, Switzerland', latitude: 46.233212, longitude:  6.055322},
         {name: 'Boston, USA', latitude: 42.358624, longitude: -71.094390},
         {name: 'Melbourne, Australia', latitude: -37.808612, longitude: 144.963433},
-        {name: 'Funafati, Tuvalu', latitude: -8.564560, longitude: 179.133800}
+        {name: 'Funafati, Tuvalu', latitude: -8.564560, longitude: 179.133800},
+        { name: "Fredrikstad", latitude: 59.2181, longitude: 10.9298},
+        { name: "Tokyo", latitude: 35.6895, longitude: 139.69171},
+        { name: "London", latitude: 51.50853, longitude: -0.12574}
     ];
 
     async function fetchWeather() {
